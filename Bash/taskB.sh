@@ -19,7 +19,7 @@ PURPLE=5
 killed=()
 # help func
 function Color () {
- echo "$(tput setaf $1) $2 Not exist$(tput sgr0)"
+ echo "$(tput setaf $1) $2 $(tput sgr0)"
 }
 # verbs :# list running process
          # specific process
